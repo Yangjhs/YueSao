@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="专业育婴师、育儿嫂、月嫂团队">
+    <title>团队成员展示</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- 微信卡片链接样式 -->
+    <div class="wechat-card" onclick="window.location.href='detail.html?id=1'">
+        <div class="card-content">
+            <div class="card-text">
+                <div class="card-title">[晏]育婴师|育儿嫂|月嫂</div>
+                <div class="card-description">
+                    HI,我是晏,有3年的育婴师、<br>
+                    育儿嫂、月嫂工作经验,籍贯<br>
+                    贵州,各位宝妈们好,我叫...
+                </div>
+            </div>
+            <div class="card-image">
+                <img src="images/yan.jpg" alt="晏的头像" onerror="this.src='images/default-avatar.jpg'">
+            </div>
+        </div>
+    </div>
+
+    <!-- 团队成员展示 -->
+    <div class="team-container">
+        <h1 class="team-title">部分成员简介:</h1>
+        <div class="team-grid" id="teamGrid">
+            <!-- 团队成员将通过JavaScript动态生成 -->
+        </div>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>简历详情</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="detail-container">
+        <!-- 头部导航 -->
+        <div class="detail-header">
+            <span class="close-btn" onclick="history.back()">×</span>
+            <h2>简历详情</h2>
+        </div>
+
+        <!-- 个人信息卡片 -->
+        <div class="profile-card" id="profileCard">
+            <!-- 内容将通过JavaScript动态生成 -->
+        </div>
+
+        <!-- 基本信息 -->
+        <div class="info-section">
+            <h3>基本信息</h3>
+            <div class="info-grid" id="basicInfo">
+                <!-- 内容将通过JavaScript动态生成 -->
+            </div>
+        </div>
+
+        <!-- 自我介绍 -->
+        <div class="info-section">
+            <h3>自我介绍</h3>
+            <div class="intro-text" id="introText">
+                <!-- 内容将通过JavaScript动态生成 -->
+            </div>
+        </div>
+
+        <!-- 工作生活照 -->
+        <div class="info-section">
+            <h3 class="photo-title">工作生活照(<span id="photoCount">0</span>)</h3>
+            <div class="photo-grid" id="photoGrid">
+                <!-- 内容将通过JavaScript动态生成 -->
+            </div>
+        </div>
+
+        <!-- 资格证照片 -->
+        <div class="info-section">
+            <h3 class="photo-title">资格证照片(<span id="certCount">0</span>)</h3>
+            <div class="photo-grid" id="certGrid">
+                <!-- 内容将通过JavaScript动态生成 -->
+            </div>
+        </div>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="detail.js"></script>
+</body>
+</html>
+
