@@ -67,8 +67,8 @@ body {
 /* 团队成员展示 */
 .team-container {
     max-width: 1200px;
-    margin: 40px auto;
-    padding: 0 20px;
+    margin: 0 auto;
+    padding: 40px 20px;
 }
 
 .team-title {
@@ -80,7 +80,7 @@ body {
 
 .team-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     margin-bottom: 40px;
 }
@@ -345,19 +345,6 @@ body {
 @media (max-width: 480px) {
     .team-grid {
         grid-template-columns: 1fr;
-    }
-
-    .wechat-card {
-        margin: 10px;
-    }
-
-    .card-content {
-        padding: 12px;
-    }
-
-    .card-image {
-        width: 60px;
-        height: 60px;
     }
 }
 
